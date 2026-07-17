@@ -122,8 +122,7 @@ function currentPageName(formType) {
     "index.html": "메인 페이지",
     "insurance.html": "보험 상담 페이지",
     "recruit.html": "입사 문의 페이지",
-    "lecture.html": "세일즈 코칭 페이지",
-    "program.html": "프로그램 문의 페이지"
+    "lecture.html": "세일즈 코칭 페이지"
   };
   return names[path] || formType || document.title || "현명한 보험";
 }
